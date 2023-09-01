@@ -15,5 +15,5 @@ HTML CSS JavaScript
 Link: https://pokedex-bluecircuit.netlify.app/
 
 ## Screenshots
-![Uploading image.png…]()
+
 <img src="https://github.com/JAHMEX19/Proyecto_Pokedex_v2/blob/main/pokedexv2.png" width="500px"  >
