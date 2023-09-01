@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Pokedex </title>
+</head>
+
+<body>
+<header>
+
+    <section class="logo-title">
+        <img id="icon" src="/img/pokeball.png" >
+         <h2 class="title" id="title">Pokemon</h2>
+         <input type="text" name="buscador" id="buscador" placeholder="Enter Pokemon name">
+    </section>
+
+    <section class = "busqueda-filtro">    
+         <section class="filters" id="filters"></section>
+    </section>
+ 
+    
+</header>
+
+<main>
+    
+    <nav class="navigation">
+
+        <div class="menuToggle"></div>
+
+        <ol>
+            <li class="list active" id="list" style="--clr:#ffd900;" value="0" >
+                <a href="#">
+
+                    <span class="icon">
+                        <i class='bx bxs-like bx-tada-hover'></i>
+                        <box-icon type='solid' name='analyse'></box-icon>
+                    </span>
+                    <span class="text">All</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#8fd4d1;" value="1" >
+                <a href="#">
+
+                    <span class="icon">
+                        <i class='bx bxs-like bx-tada-hover'></i>
+                        <box-icon type='solid' name='circle'></box-icon>
+                    </span>
+                    <span class="text">Normal</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#e77bc7;" value="2">
+                <a href="#">
+
+                    <span class="icon">
+                        <box-icon name='bone'></box-icon>
+                    </span>
+                    <span class="text">Fighting</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#24f3e9;" value="3">
+                <a href="#">
+
+                    <span class="icon">
+                        <box-icon name='wind'></box-icon>
+                    </span>
+                    <span class="text">Flying</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#62f436;" value="4">
+                <a href="#">
+
+                    <span class="icon">
+                        <box-icon type='solid' name='skull'></box-icon>
+                    </span>
+                    <span class="text">Poison</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#1e7a3a;" value="5">
+                <a href="#">
+
+                    <span class="icon">
+                        <box-icon type='solid' name='tree-alt'></box-icon>
+                    </span>
+                    <span class="text">Ground</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#c47f46;" value="6">
+                <a href="#">
+
+                    <span class="icon">
+                        <box-icon name='badge'></box-icon>
+                    </span>
+                    <span class="text">Rock</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#37d63f;" value="7">
+                <a href="#">
+
+                    <span class="icon">
+                        <box-icon name='bug' ></box-icon>
+                    </span>
+                    <span class="text">Bug</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#992a86;" value="8">
+                <a href="#">
+
+                    <span class="icon">
+                        <box-icon name='ghost'></box-icon>
+                    </span>
+                    <span class="text">Ghost</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#992a86;" value="9">
+                <a href="#">
+
+                    <span class="icon">
+                        <box-icon type='solid' name='cog'></box-icon>
+                    </span>
+                    <span class="text">Steel</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#ff1100;" value="10">
+                <a href="#">
+
+                    <span class="icon">
+                        <box-icon type='solid' name='hot'></box-icon>
+                    </span>
+                    <span class="text">Fire</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#15b7e9;" value="11">
+                <a href="#">
+                    <span class="icon">
+                        <box-icon name='water'></box-icon>
+                    </span>
+                    <span class="text">Water</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#4fe60a;" value="12">
+                <a href="#">
+
+                    <span class="icon">
+                        <box-icon name='leaf'></box-icon>
+                    </span>
+                    <span class="text">Grass</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#fff239;" value="13">
+                <a href="#">
+
+                    <span class="icon">
+                        <box-icon name='cloud-lightning'></box-icon>
+                    </span>
+                    <span class="text">Electric</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#f39e00;" value="14">
+                <a href="#">
+
+                    <span class="icon">
+                        <box-icon name='atom'></box-icon>
+                    </span>
+                    <span class="text">Psychic</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#6fdada;" value="15">
+                <a href="#">
+
+                    <span class="icon">
+                        <box-icon name='cloud-snow'></box-icon>
+                    </span>
+                    <span class="text">Ice</span>
+                </a>
+            </li>
+            <li class="list" id="list" style="--clr:#f44336;" value="16">
+                <a href="#">
+
+                    <span class="icon">
+                        <box-icon name='meteor'></box-icon>
+                    </span>
+                    <span class="text">Dragon</span>
+                </a>
+            </li>
+           
+        </ol>
+        
+    </nav>
+
+    <section class="pantalla">
+
+         <section class="container" id="container">
+
+                
+
+         </section>
+
+    </section>
+
+</main>
+
+<ol id="fetch-async"></ol>
+
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="/js/script.js" type="module"></script>
+    
+
+    <footer class="footer">
+        &copy; Joel Alejandro
+        <a href="#">--</a>
+    </footer>
+</body>
+
+</html>
